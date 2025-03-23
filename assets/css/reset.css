@@ -12,11 +12,11 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 ul,ol{
-    list-style: none;
+    list-style: none !important;
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 html{
@@ -24,26 +24,23 @@ html{
 }
 
 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
 }
 
 .container{
-    max-width: 114rem;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 
 body{
-    font-size: 1.4rem;
-    color:var(--main-text-color);
-    background-color: var(--main-background-color);
-    font-family: var(--main-font-family);
+    font-size: 1.4rem !important;
+    color:var(--main-text-color) !important;
+    font-family: var(--main-font-family) !important;
 }
 
 :root{
     --main-text-color: #B7472A;
-    --main-background-color: #B7472A;
     --main-font-family: "Spectral", serif;
 }

@@ -1,0 +1,135 @@
+#header_area {
+    height: 3rem;
+    background-color: #B7472A;
+    padding-top: .7rem;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.number {
+    display: flex;
+    gap: 1rem;
+}
+
+.number i,
+p {
+    color: #ffffff99;
+    font-size: 1.2rem;
+}
+
+.number .telephone-box {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.number .email-box {
+    display: flex;
+    gap: 1rem;
+}
+
+.social {
+    display: flex;
+    gap: 3rem;
+}
+
+.social .header-icon {
+    display: flex;
+    gap: 1rem;
+}
+
+.social .header-link {
+    display: flex;
+    gap: 2rem;
+}
+
+.social i {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.social a {
+    color: #ffffff99;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+#nav_area {
+    height: 7.4rem;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+
+#nav_area h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav_area .nav-box {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.nav-list i{
+    display: none;
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-list ul li a {
+    text-transform: uppercase;
+    color: #ffffff99;
+}
+
+.nav-list ul li form select {
+    background: none;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    color: #ffffff99;
+    width: 11rem;
+}
+
+.nav-list ul li form select option {
+    text-transform: uppercase;
+    color: #000;
+}
+
+.nav-list ul li i {
+    font-size: 1.6rem;
+    color: #B7472A;
+}
+
+
+
+@media(max-width:768px) {
+    #header_area {
+        height: 6rem;
+    }
+
+    #header_area .container .header-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-box .social{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nav-list ul{
+        display: none;
+    }
+
+    .nav-list i{
+        display: block;
+        font-size: 2rem;
+    }
+}
