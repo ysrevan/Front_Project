@@ -112,54 +112,6 @@ p {
     color: #000;
 }
 
-
-#good {
-    height: 70rem;
-    background-image: url(/assets/images/bg_2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-attachment: fixed;
-}
-
-.good-text {
-    width: 90rem;
-}
-
-.good-text h1 {
-    color: #fff;
-    font-size: 8rem;
-}
-
-.good-text button {
-    width: 12.2rem;
-    height: 4.8rem;
-    font-size: 1.5rem;
-    border-radius: .5rem;
-}
-
-.good-text .shop {
-    background-color: #B7472A;
-    color: #fff;
-    border: 1px solid #B7472A;
-}
-
-.good-text .read {
-    background: none;
-    border: 1px solid #fff;
-    transition: .5s;
-    color: #fff;
-}
-
-.good-text .read:hover {
-    background-color: #B7472A;
-    border: 1px solid #B7472A;
-
-}
-
 #online {
     height: 22.5rem;
     background-color: #B7472A;
@@ -191,7 +143,6 @@ p {
     font-size: 6rem;
     color: #fff;
 }
-
 #desire {
     height: 61rem;
     display: flex;
@@ -236,7 +187,6 @@ p {
     font-size: 3rem;
     color: #000;
 }
-
 #tequila {
     height: 25rem;
     display: flex;
@@ -264,50 +214,6 @@ p {
 }
 
 #tequila .card .card-title {
-    font-size: 2.2rem;
-}
-#tastefully{
-    height: 120rem;
-    display: flex;
-    align-items: center;
-}
-.tastefully-text{
-   text-align: center;
-   margin-bottom: 5rem;
-}
-.tastefully-text p{
-    color: #B7472A;
-    font-size: 1.6rem;
-    font-style: italic;
-}
-.tastefully-text h1{
-    color: #000;
-    font-size: 4rem;
-}
-#tastefully .card{
-    background: none;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#tastefully .card .image{
-    width: 25.5rem;
-    height: 35rem;
-}
-#tastefully .card .card-body{
-    text-align: center;
-}
-#tastefully .card .card-body .name{
-    font-size: 1.6rem;
-    font-style: italic;
-    color: #B7472A;
-}
-#tastefully .card .card-body p{
-    font-size: 1.6rem;
-    color: #000;
-}
-#tastefully .card .card-body h1{
     font-size: 2.2rem;
 }
 @media(max-width:768px) {
@@ -339,16 +245,10 @@ p {
         display: block;
         font-size: 2rem;
     }
-
-    .good-text h1 {
-        font-size: 4rem;
-    }
-
     #online {
         height: 70rem;
 
     }
-
     #desire {
         height: 111rem;
     }
@@ -371,8 +271,5 @@ p {
     }
     #tequila {
         height: 135rem;
-    }
-    #tastefully{
-        height: 400rem;
     }
 }
