@@ -2,6 +2,9 @@
     height: 3rem;
     background-color: #B7472A;
     padding-top: .7rem;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 .header-box {
@@ -63,6 +66,10 @@ p {
     background-color: #000;
     display: flex;
     align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-top: 3rem;
 }
 
 #nav_area h1 {
@@ -107,7 +114,52 @@ p {
     color: #B7472A;
 }
 
+#good{
+    height: 70rem;
+    background-image: url(/assets/images/bg_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+}
 
+.good-text{
+    width: 90rem;
+}
+
+.good-text h1{
+    color: #fff;
+    font-size: 8rem;
+}
+
+.good-text button{
+    width: 12.2rem;
+    height: 4.8rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
+
+.good-text .shop{
+   background-color: #B7472A;
+   color: #fff;
+   border: 1px solid #B7472A;
+}
+
+.good-text .read{
+    background: none;
+    border: 1px solid #fff;
+    transition: .5s;
+    color: #fff;
+ }
+
+ .good-text .read:hover{
+   background-color: #B7472A;
+   border: 1px solid #B7472A;
+
+ }
 
 @media(max-width:768px) {
     #header_area {
