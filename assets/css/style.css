@@ -241,6 +241,7 @@ p {
     height: 25rem;
     display: flex;
     align-items: center;
+    margin-bottom: 10rem;
 }
 
 #tequila .card {
@@ -288,6 +289,7 @@ p {
 .tastefully-text h1{
     color: #000;
     font-size: 4rem;
+    font-weight: bold;
 }
 #tastefully .card{
     background: none;
@@ -366,10 +368,159 @@ p {
     align-items: center;
     justify-content: center;
     margin-top: 5rem;
+    margin-bottom: 15rem;
 }
 #tastefully .view i{
     font-size: 1.8rem;
     margin-left: 1rem;
+}
+#clients{
+    height: 67rem;
+    background-image: url(../images/bg_4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.background-div{
+    height: 67rem;
+    background-color: #080808bd;
+    text-align: center;
+    padding-top: 10rem;
+}
+.background-div .clients-text{
+    padding-bottom: 10rem;
+}
+.background-div .clients-text h1{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: bold;
+}
+.background-div .clients-text p{
+    font-size: 1.6rem;
+    font-style: italic;
+}
+.background-div .card{
+    width: 35rem;
+    height: 20rem;
+    background: none;
+    border: 1px solid gray;
+    padding: 1.5rem;
+    display: flex;
+    position: relative;
+}
+.background-div .card .card-title{
+    width: 31rem;
+    text-align: left;
+ }
+.background-div .card .card-title p{
+   font-size: 1.6rem;  
+   font-style: italic;
+}
+.background-div .card .card-text{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.background-div .card .card-text .image{
+    width: 8rem;
+    height: 8rem;
+}
+.background-div .card .card-text .image img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+}
+.background-div .card .card-text .image-text{
+   text-align: left;
+}
+.background-div .card .card-text .image-text h3{
+    font-size: 2rem;
+    color: #fff;
+}
+.background-div .card .card-text .image-text p{
+    font-size: 1.6rem;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    gap: 1rem;
+}
+.pagination .circle{
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 100%;
+    border: 1px solid #ffffff99;
+}
+.quote{
+    width: 4rem;
+    height: 4rem;
+    background-color: #B7472A;
+    position: absolute;
+    bottom: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+.quote i{
+   font-size: 2.5rem;
+   color: #fff;
+}
+#recent{
+    height: 106rem;
+}
+#recent .row{
+    row-gap: 2rem;
+}
+ .recent-text{
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+}
+.recent-text h1{
+    font-size: 4rem;
+    color: #000;
+    font-weight: bold;
+}
+.recent-text p{
+    font-size: 1.6rem;
+    color: #B7472A;
+    font-style: italic;
+}
+#recent .card{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+#recent .card .image{
+    width: 50rem;
+    height: 33.4rem;
+}
+.date{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#recent .card .card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 3rem;
+}
+#recent .card .card-text  p{
+    color: #000 ;
+    font-size: 1.6rem;
+}
+#recent .card .card-text  h1{
+    font-style: italic;
+    font-size: 2.2rem;
+}
+#recent .card .card-text  a{
+    font-style: italic;
+    font-size: 1.6rem;
+    color: #B7472A;
+    font-weight: bold;
 }
 @media(max-width:768px) {
     #header_area {
@@ -445,5 +596,11 @@ p {
     }
     #tastefully .new{
         left: 74px;
+    }
+    #clients{
+        height: 97rem;
+    }
+    .background-div{
+        height: 97rem;
     }
 }
