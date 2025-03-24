@@ -134,218 +134,49 @@ p {
 .hero-text h2{
     color: #ffffff99;
 }
-#online {
-    height: 22.5rem;
-    background-color: #B7472A;
-    display: flex;
-    align-items: center;
-}
-
-#online .container .row .card {
-    background: none;
-    border: none;
-
-}
-
-#online .container .row .card .icon_box {
-    display: flex;
-    align-items: center;
-}
-
-#online .container .row .card .card-title {
-    font-size: 1.8rem;
-    color: #fff;
-}
-
-#online .container .row .card .card-text {
-    font-size: 1.6rem;
-}
-
-#online .container .row .card .card_icon {
-    font-size: 6rem;
-    color: #fff;
-}
-#desire {
-    height: 61rem;
-    display: flex;
-    align-items: center;
-}
-
-.desire-box {
-    display: flex;
-    justify-content: space-between;
-    gap: 5rem;
-}
-
-.desire-box .image {
-    width: 57rem;
-    height: 51rem;
-}
-
-.desire-text {
-    width: 57rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding-top: 7rem;
-}
-
-.desire-text p {
-    color: #000;
-    font-size: 1.6rem;
-}
-
-.desire-text .since {
-    color: #B7472A;
-    font-style: italic;
-}
-
-.desire-text h2 {
-    font-size: 4rem;
-    color: #000;
-}
-
-.desire-text h3 {
-    font-size: 3rem;
-    color: #000;
-}
-#tequila {
-    height: 25rem;
-    display: flex;
-    align-items: center;
-}
-
-#tequila .card {
-    background: none;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-}
-
-#tequila .card .image {
-    width: 15rem;
-    height: 15rem;
-}
-
-#tequila .card .image img {
-    border-radius: 100%;
-    outline: 1px solid #B7472A;
-    outline-offset: 1rem;
-}
-
-#tequila .card .card-title {
-    font-size: 2.2rem;
-}
-#clients{
-    height: 67rem;
-    background-image: url(../images/bg_4.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-.background-div{
-    height: 67rem;
-    background-color: #080808bd;
-    text-align: center;
+#contact-us{
+    height: 35rem;
     padding-top: 10rem;
 }
-.background-div .clients-text{
-    margin-bottom: 10rem;
+#contact-us .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  text-align: center;
+  border: none;
 }
-.background-div .clients-text h1{
-    font-size: 4rem;
-    color: #fff;
-}
-.background-div .clients-text p{
-    font-size: 1.6rem;
-    font-style: italic;
-}
-.background-div .card{
-    width: 35rem;
-    height: 20rem;
-    background: none;
-    border: 1px solid gray;
-    padding: 1.5rem;
-    display: flex;
-    position: relative;
-}
-.background-div .card .card-title{
-    width: 31rem;
-    text-align: left;
- }
-.background-div .card .card-title p{
-   font-size: 1.6rem;  
-   font-style: italic;
-}
-.background-div .card .card-text{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
-.background-div .card .card-text .image{
-    width: 8rem;
-    height: 8rem;
-}
-.background-div .card .card-text .image img{
-    width: 8rem;
-    height: 8rem;
-    border-radius: 100%;
-}
-.background-div .card .card-text .image-text{
-   text-align: left;
-}
-.background-div .card .card-text .image-text h3{
-    font-size: 2rem;
-    color: #fff;
-}
-.background-div .card .card-text .image-text p{
-    font-size: 1.6rem;
-}
-.pagination{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 4rem;
-    gap: 1rem;
-}
-.pagination .circle{
-    width: 1.4rem;
-    height: 1.4rem;
-    border-radius: 100%;
-    border: 1px solid #ffffff99;
-}
-.quote{
-    width: 4rem;
-    height: 4rem;
+#contact-us .card .card-icon{
+    width: 10rem;
+    height: 10rem;
     background-color: #B7472A;
-    position: absolute;
-    bottom: 18rem;
+    border-radius: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 100%;
 }
-.quote i{
+#contact-us .card .card-icon i{
    font-size: 2.5rem;
    color: #fff;
 }
-#statica{
-    height: 18.2rem;
-    display: flex;
-    align-items: center;
-}
-#statica .card{
-   text-align: center;
-   border: none;
-}
-#statica .card .card-number h1{
-    font-size: 4rem;
-    color: #B7472A;
-    font-style: italic;
- }
- #statica .card .card-text h2{
+#contact-us .card .card-text p{
     font-size: 1.6rem;
+ }
+ #contact_area{
+    margin-bottom: 10rem;
+ }
+ .contact-box{
+    width: 106rem;
+    height: 55.5rem;
+    background-color: aqua;
+    display: flex;
+ }
+ .contact-box .contact-form{
+    padding: 5rem;
+ }
+ .contact-box iframe{
+    width: 44.2rem;
+    height: 55.5rem;
  }
 #footer_area{
     height: 40rem;
@@ -507,8 +338,7 @@ p {
     font-size: 1.6rem;
     color: gray;
  }
-
-@media(max-width:768px) {
+ @media(max-width:768px) {
     #header_area {
         height: 6rem;
         z-index: 1;
@@ -537,42 +367,6 @@ p {
         display: block;
         font-size: 2rem;
     }
-    #online {
-        height: 70rem;
-
-    }
-    #desire {
-        height: 111rem;
-    }
-
-    .desire-box {
-        display: block;
-    }
-
-    .desire-box .image {
-        width: 38rem;
-        height: 40rem;
-    }
-
-    .desire-text {
-        width: 38rem;
-    }
-
-    .desire-text h2 {
-        font-size: 3rem;
-    }
-    #tequila {
-        height: 135rem;
-    }
-    #clients{
-        height: 97rem;
-    }
-    .background-div{
-        height: 97rem;
-    }
-    #statica{
-        height: 58.2rem;
-    }
     #footer_area{
         height: 120rem;
     }
@@ -581,5 +375,5 @@ p {
     }
     #copyright span{
         font-size: 1.3rem;
-     }
+    }
 }

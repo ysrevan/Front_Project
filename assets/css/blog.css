@@ -121,6 +121,7 @@ p {
     height: 40rem;
     background-image: url(/assets/images/bg_2.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 .hero-text{
     padding-top: 25rem;
@@ -132,6 +133,117 @@ p {
 }
 .hero-text h2{
     color: #ffffff99;
+}
+#recent{
+    height: 126rem;
+    padding-top: 10rem;
+}
+#recent .row{
+    row-gap: 2rem;
+}
+#recent .card{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+#recent .card .image{
+    width: 50rem;
+    height: 33.4rem;
+}
+.date{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#recent .card .card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 3rem;
+}
+#recent .card .card-text  p{
+    color: #000 ;
+    font-size: 1.6rem;
+}
+#recent .card .card-text  h1{
+    font-style: italic;
+    font-size: 2.2rem;
+}
+#recent .card .card-text  a{
+    font-style: italic;
+    font-size: 1.6rem;
+    color: #B7472A;
+    font-weight: bold;
+}
+.blog-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+.blog-pagination .box1{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border:1px solid #B7472A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-pagination .box2{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border:1px solid #B7472A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-pagination .box3{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border:1px solid #B7472A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-pagination .box4{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border:1px solid #B7472A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-pagination .box5{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border:1px solid #B7472A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-pagination .box6{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border:1px solid #B7472A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-pagination .box7{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border:1px solid #B7472A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #footer_area{
     height: 40rem;
@@ -293,117 +405,6 @@ p {
     font-size: 1.6rem;
     color: gray;
  }
- #recent{
-    height: 126rem;
-    padding-top: 10rem;
-}
-#recent .row{
-    row-gap: 2rem;
-}
-#recent .card{
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-}
-#recent .card .image{
-    width: 50rem;
-    height: 33.4rem;
-}
-.date{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-#recent .card .card-text {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    padding-top: 3rem;
-}
-#recent .card .card-text  p{
-    color: #000 ;
-    font-size: 1.6rem;
-}
-#recent .card .card-text  h1{
-    font-style: italic;
-    font-size: 2.2rem;
-}
-#recent .card .card-text  a{
-    font-style: italic;
-    font-size: 1.6rem;
-    color: #B7472A;
-    font-weight: bold;
-}
-.blog-pagination{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    padding-top: 2rem;
-}
-.blog-pagination .box1{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    border:1px solid #B7472A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.blog-pagination .box2{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    border:1px solid #B7472A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.blog-pagination .box3{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    border:1px solid #B7472A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.blog-pagination .box4{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    border:1px solid #B7472A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.blog-pagination .box5{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    border:1px solid #B7472A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.blog-pagination .box6{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    border:1px solid #B7472A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.blog-pagination .box7{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    border:1px solid #B7472A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 @media(max-width:768px) {
     #header_area {
         height: 6rem;
