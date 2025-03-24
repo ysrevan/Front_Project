@@ -271,6 +271,11 @@ p {
     display: flex;
     align-items: center;
 }
+#tastefully .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .tastefully-text{
    text-align: center;
    margin-bottom: 5rem;
@@ -290,6 +295,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+#tastefully .sale{
+    position: absolute;
+    left: 13px;
+    bottom: 98px;
+    width: 4.1rem;
+    height: 2.1rem;
+    background-color: #B7472A;
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tastefully .best{
+    position: absolute;
+    width: 7.1rem;
+    height: 2.1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FE9801;
+    left: 15px;
+    bottom: 125px;
+}
+#tastefully .new{
+    position: absolute;
+    width: 8.3rem;
+    height: 2.1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #01D28E;
+    left: 15px;
+    bottom: 98px;
 }
 #tastefully .card .image{
     width: 25.5rem;
@@ -309,6 +354,22 @@ p {
 }
 #tastefully .card .card-body h1{
     font-size: 2.2rem;
+}
+#tastefully .view{
+    width: 35rem;
+    height: 3.6rem;
+    background-color: #B7472A;
+    border: 1px solid #B7472A;
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+#tastefully .view i{
+    font-size: 1.8rem;
+    margin-left: 1rem;
 }
 @media(max-width:768px) {
     #header_area {
@@ -374,5 +435,15 @@ p {
     }
     #tastefully{
         height: 400rem;
+    }
+    #tastefully .sale{
+        left: 74px;
+    }
+    #tastefully .best{
+        left: 74px;
+        bottom: 99px;
+    }
+    #tastefully .new{
+        left: 74px;
     }
 }
