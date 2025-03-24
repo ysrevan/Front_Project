@@ -5,6 +5,7 @@
     position: fixed;
     left: 0;
     right: 0;
+    top: 0;
     z-index: 1;
 }
 
@@ -70,6 +71,7 @@ p {
     position: fixed;
     right: 0;
     left: 0;
+    top: 0;
     margin-top: 3rem;
     z-index: 1;
 }
@@ -111,7 +113,22 @@ p {
     text-transform: uppercase;
     color: #000;
 }
-
+#hero{
+    height: 40rem;
+    background-image: url(/assets/images/bg_2.jpg);
+    background-size: cover;
+}
+.hero-text{
+    padding-top: 25rem;
+    text-align: center;
+}
+.hero-text h1{
+    color: #fff;
+    font-size: 6rem;
+}
+.hero-text h2{
+    color: #ffffff99;
+}
 #online {
     height: 22.5rem;
     background-color: #B7472A;
@@ -308,6 +325,184 @@ p {
    font-size: 2.5rem;
    color: #fff;
 }
+#statica{
+    height: 18.2rem;
+    display: flex;
+    align-items: center;
+}
+#statica .card{
+   text-align: center;
+   border: none;
+}
+#statica .card .card-number h1{
+    font-size: 4rem;
+    color: #B7472A;
+    font-style: italic;
+ }
+ #statica .card .card-text h2{
+    font-size: 1.6rem;
+ }
+#footer_area{
+    height: 40rem;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+}
+.footer-boxs{
+    display: flex;
+    gap: 7rem;
+}
+.footer-boxs .box1{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.footer-boxs .box1 h1{
+    font-size: 2rem;
+    color: gray;
+}
+.footer-boxs .box2 h1{
+    font-size: 2rem;
+    color: gray;
+}
+.footer-boxs .box3 h1{
+    font-size: 2rem;
+    color: gray;
+}
+.footer-boxs .box4 h1{
+    font-size: 2rem;
+    color: gray;
+}
+.footer-boxs .box5 h1{
+    font-size: 2rem;
+    color: gray;
+}
+.footer-boxs .box2,.box3,.box4,.box5{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.footer-boxs .box1 p{
+    font-size: 1.6rem;
+}
+.footer-boxs .box1 .footer-social{
+    display: flex;
+    gap: 2rem;
+}
+.footer-boxs .box1 .footer-social .social1{
+   width: 5rem;
+   height: 5rem;
+   background-color: #B7472A;
+   border-radius: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.footer-boxs .box1 .footer-social .social1 i{
+   color: #fff;
+   font-size: 2rem;
+ }
+ .footer-boxs .box1 .footer-social .social2{
+    width: 5rem;
+    height: 5rem;
+    background-color: #B7472A;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .footer-boxs .box1 .footer-social .social2 i{
+    color: #fff;
+    font-size: 2rem;
+  }
+  .footer-boxs .box1 .footer-social .social3{
+    width: 5rem;
+    height: 5rem;
+    background-color: #B7472A;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .footer-boxs .box1 .footer-social .social3 i{
+    color: #fff;
+    font-size: 2rem;
+  }
+.footer-boxs .box2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-boxs .box3 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-boxs .box4 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-boxs .box5 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-boxs .box2 ul li a{
+   color:gray;
+   font-size: 1.6rem;
+}
+.footer-boxs .box3 ul li a{
+    color:gray;
+   font-size: 1.6rem;
+}
+.footer-boxs .box4 ul li a{
+    color:gray;
+    font-size: 1.6rem;
+}
+.footer-boxs .box5{
+    width: 22.8rem;
+}
+.footer-boxs .box5 ul li a{
+    color:gray;
+   font-size: 1.6rem;
+}
+.footer-boxs .box5 .map{
+    display: flex;
+    gap: 2rem;
+}
+.footer-boxs .box5 .map i{
+   font-size: 2rem;
+   color: gray;
+}
+.footer-boxs .box5 .telephone{
+    display: flex;
+    gap: 2rem;
+}
+.footer-boxs .box5 .telephone i{
+    font-size: 2rem;
+    color: gray;
+ }
+.footer-boxs .box5 .send{
+    display: flex;
+    gap: 2rem;
+}
+.footer-boxs .box5 .send i{
+    font-size: 2rem;
+    color: gray;
+ }
+ #copyright{
+    height: 12.4rem;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+ }
+ #copyright span{
+    font-size: 1.6rem;
+    color: gray;
+ }
+
 @media(max-width:768px) {
     #header_area {
         height: 6rem;
@@ -370,4 +565,16 @@ p {
     .background-div{
         height: 97rem;
     }
+    #statica{
+        height: 58.2rem;
+    }
+    #footer_area{
+        height: 120rem;
+    }
+    .footer-boxs{
+        display: block;
+    }
+    #copyright span{
+        font-size: 1.3rem;
+     }
 }
