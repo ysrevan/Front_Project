@@ -99,6 +99,10 @@ p {
 .nav-list ul li a {
     text-transform: uppercase;
     color: #ffffff99;
+    transition: .5s;
+}
+.nav-list ul li a:hover{
+    color: #B7472A;
 }
 
 .nav-list ul li form select {
