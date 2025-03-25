@@ -1,0 +1,375 @@
+#header_area {
+    height: 3rem;
+    background-color: #B7472A;
+    padding-top: .7rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.number {
+    display: flex;
+    gap: 1rem;
+}
+
+.number i,
+p {
+    color: #ffffff99;
+    font-size: 1.2rem;
+}
+
+.number .telephone-box {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.number .email-box {
+    display: flex;
+    gap: 1rem;
+}
+
+.social {
+    display: flex;
+    gap: 3rem;
+}
+
+.social .header-icon {
+    display: flex;
+    gap: 1rem;
+}
+
+.social .header-link {
+    display: flex;
+    gap: 2rem;
+}
+
+.social i {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.social a {
+    color: #ffffff99;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+#nav_area {
+    height: 7.4rem;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-top: 3rem;
+    z-index: 1;
+}
+
+#nav_area h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav_area .nav-box {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.nav-box i {
+    display: none;
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-list ul li a {
+    text-transform: uppercase;
+    color: #ffffff99;
+    transition: .5s;
+}
+.nav-list ul li a:hover{
+    color: #B7472A;
+}
+
+.nav-list ul li form select {
+    background: none;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    color: #ffffff99;
+    width: 11rem;
+}
+
+.nav-list ul li form select option {
+    text-transform: uppercase;
+    color: #000;
+}
+#hero{
+    height: 40rem;
+    background-image: url(/assets/images/bg_2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-text{
+    padding-top: 25rem;
+    text-align: center;
+}
+.hero-text h1{
+    color: #fff;
+    font-size: 6rem;
+}
+.hero-text h2{
+    color: #ffffff99;
+}
+#register_form {
+    height: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#register_form .form-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#register_form .form-box form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    width: 50rem;
+} 
+#register_form .form-box form label{
+   text-transform: uppercase;
+} 
+#register_form .form-box form input{
+    height: 5rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+ }
+#register_form .form-box button{
+    width: 12rem;
+    height: 3.6rem;
+    background-color: #B7472A;
+    border: 1px solid #B7472A;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
+#footer_area{
+    height: 40rem;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+}
+.footer-boxs{
+    display: flex;
+    gap: 7rem;
+}
+.footer-boxs .box1{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.footer-boxs .box1 h1{
+    font-size: 2rem;
+    color: gray;
+}
+.footer-boxs .box2 h1{
+    font-size: 2rem;
+    color: gray;
+}
+.footer-boxs .box3 h1{
+    font-size: 2rem;
+    color: gray;
+}
+.footer-boxs .box4 h1{
+    font-size: 2rem;
+    color: gray;
+}
+.footer-boxs .box5 h1{
+    font-size: 2rem;
+    color: gray;
+}
+.footer-boxs .box2,.box3,.box4,.box5{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.footer-boxs .box1 p{
+    font-size: 1.6rem;
+}
+.footer-boxs .box1 .footer-social{
+    display: flex;
+    gap: 2rem;
+}
+.footer-boxs .box1 .footer-social .social1{
+   width: 5rem;
+   height: 5rem;
+   background-color: #B7472A;
+   border-radius: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.footer-boxs .box1 .footer-social .social1 i{
+   color: #fff;
+   font-size: 2rem;
+ }
+ .footer-boxs .box1 .footer-social .social2{
+    width: 5rem;
+    height: 5rem;
+    background-color: #B7472A;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .footer-boxs .box1 .footer-social .social2 i{
+    color: #fff;
+    font-size: 2rem;
+  }
+  .footer-boxs .box1 .footer-social .social3{
+    width: 5rem;
+    height: 5rem;
+    background-color: #B7472A;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .footer-boxs .box1 .footer-social .social3 i{
+    color: #fff;
+    font-size: 2rem;
+  }
+.footer-boxs .box2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-boxs .box3 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-boxs .box4 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-boxs .box5 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-boxs .box2 ul li a{
+   color:gray;
+   font-size: 1.6rem;
+}
+.footer-boxs .box3 ul li a{
+    color:gray;
+   font-size: 1.6rem;
+}
+.footer-boxs .box4 ul li a{
+    color:gray;
+    font-size: 1.6rem;
+}
+.footer-boxs .box5{
+    width: 22.8rem;
+}
+.footer-boxs .box5 ul li a{
+    color:gray;
+   font-size: 1.6rem;
+}
+.footer-boxs .box5 .map{
+    display: flex;
+    gap: 2rem;
+}
+.footer-boxs .box5 .map i{
+   font-size: 2rem;
+   color: gray;
+}
+.footer-boxs .box5 .telephone{
+    display: flex;
+    gap: 2rem;
+}
+.footer-boxs .box5 .telephone i{
+    font-size: 2rem;
+    color: gray;
+ }
+.footer-boxs .box5 .send{
+    display: flex;
+    gap: 2rem;
+}
+.footer-boxs .box5 .send i{
+    font-size: 2rem;
+    color: gray;
+ }
+ #copyright{
+    height: 12.4rem;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+ }
+ #copyright span{
+    font-size: 1.6rem;
+    color: gray;
+ }
+ @media(max-width:768px) {
+    #header_area {
+        height: 6rem;
+        z-index: 1;
+    }
+
+    #header_area .container .header-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-box .social {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #nav_area {
+        margin-top: 6rem;
+        z-index: 1;
+    }
+
+    .nav-list ul {
+        display: none;
+    }
+
+    .nav-box i {
+        display: block;
+        font-size: 2rem;
+    }
+    #register_form .form-box form{
+        width: 35rem;
+    } 
+    #footer_area{
+        height: 120rem;
+    }
+    .footer-boxs{
+        display: block;
+    }
+    #copyright span{
+        font-size: 1.3rem;
+     }
+}

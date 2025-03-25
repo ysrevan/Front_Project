@@ -197,8 +197,17 @@ p {
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    margin-bottom: 3rem;
 }
-
+.contact-box .contact-form .form-box button{
+   width: 12rem;
+   height: 3.6rem;
+   background-color: #B7472A;
+   color: #fff;
+   border: 1px solid #B7472A;
+   border-radius: .5rem;
+   font-size: 1.5rem;
+}
 .contact-box iframe {
     width: 44.2rem;
     height: 55.5rem;
