@@ -123,133 +123,61 @@ p {
     color: #ffffff99;
 }
 
-#recent{
-    height: 126rem;
-    margin-top: 3rem;
+table{
+    width: 112.5rem;
+    height: 100rem;
+    margin-top: 10rem;
     margin-bottom: 10rem;
 }
-#recent .single-blog{
-    background-color: #B7472A;
-    border: 1px solid #B7472A;
-    width: 15rem;
-    height: 5rem;
-    font-size: 1.7rem;
-    margin-top: 5rem;
-    border-radius: 1rem;
+
+table td{
+    color: #000;
+    font-size: 2rem;
+}
+table th{
     color: #fff;
-    margin-bottom: 5rem;
+    font-size: 2rem;
+    background-color: #B7472A;
 }
 
-#recent .single-blog a{
-    font-size: 1.7rem;
-    color: #fff;
+.image{
+    width: 7rem;
+    height: 8rem;
 }
-#recent .row{
-    row-gap: 2rem;
+.totals{
+    width: 40rem;
+    height: 38.2rem;
+    margin-bottom: 10rem;
+    margin-left: 70rem;
+    padding: 4rem;
 }
-#recent .card{
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
+.totals h1{
+   color: #000;
 }
-#recent .card .image{
-    width: 50rem;
-    height: 33.4rem;
-}
-.date{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-#recent .card .card-text {
+.totals hr{
+    color: #000;
+ }
+.totals-text{
+    width: 30rem;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
-    padding-top: 3rem;
-}
-#recent .card .card-text  p{
-    color: #000 ;
-    font-size: 1.6rem;
-}
-#recent .card .card-text  h1{
-    font-style: italic;
-    font-size: 2.2rem;
-}
-#recent .card .card-text  a{
-    font-style: italic;
-    font-size: 1.6rem;
-    color: #B7472A;
-    font-weight: bold;
-}
-.blog-pagination{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 1rem;
-    padding-top: 2rem;
 }
-.blog-pagination .box1{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    border:1px solid #B7472A;
+.subtotal{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex: 1;
 }
-.blog-pagination .box2{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    border:1px solid #B7472A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.subtotal p{
+   font-size: 1.6rem;
+   color: #000;
 }
-.blog-pagination .box3{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    border:1px solid #B7472A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.blog-pagination .box4{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    border:1px solid #B7472A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.blog-pagination .box5{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    border:1px solid #B7472A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.blog-pagination .box6{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    border:1px solid #B7472A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.blog-pagination .box7{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 100%;
-    border:1px solid #B7472A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.totals button{
+    width: 30rem;
+    height: 5rem;
+    border: 1px solid #B7472A;
+    background-color: #B7472A;
+    color: #fff;
 }
 #footer_area{
     height: 40rem;
@@ -440,15 +368,18 @@ p {
         display: block;
         font-size: 2rem;
     }
-    #recent{
-        height: 260rem;
+    table{
+        width: 39rem;
     }
-    #recent .card .image{
-        width: 60rem;
-        height: 37rem;
+    table td{
+        font-size: 1rem;
     }
-    #recent .single-blog{
-       margin-left: 1rem;
+    table th{
+        font-size: 1rem;
+    }
+    .totals{
+        margin-left: 0;
+        width: 30rem;
     }
     #footer_area{
         height: 120rem;
