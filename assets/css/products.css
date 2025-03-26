@@ -101,126 +101,210 @@ p {
     color: #ffffff99;
     transition: .5s;
 }
-.nav-list ul li a:hover{
+
+.nav-list ul li a:hover {
     color: #B7472A;
 }
 
-#hero{
+#hero {
     height: 40rem;
     background-image: url(/assets/images/bg_2.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
-.hero-text{
+
+.hero-text {
     padding-top: 25rem;
     text-align: center;
 }
-.hero-text h1{
+
+.hero-text h1 {
     color: #fff;
     font-size: 6rem;
 }
-.hero-text h2{
+
+.hero-text h2 {
     color: #ffffff99;
 }
-#register_form {
-    height: 50rem;
+
+#products_area {
+    height: 220rem;
+}
+
+.container .filter-card {
+    display: flex;
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+    gap: 3rem;
+}
+
+.container .filter-card .filter-header{
+    display: flex;
+}
+
+.container .filter-card .filter-header p{
+    font-size: 1.8rem;
+    color: #000;
+}
+
+.container .filter-card .filter-header form select{
+    border: none;
+    font-size: 1.5rem;
+}
+
+.product-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#products_area .card{
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#products_area .sale{
+    position: absolute;
+    left: 20px;
+    bottom: 98px;
+    width: 4.1rem;
+    height: 2.1rem;
+    background-color: #B7472A;
+    color: #fff;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#register_form .form-box{
+#products_area .best{
+    position: absolute;
+    width: 7.1rem;
+    height: 2.1rem;
+    color: #fff;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    background-color: #FE9801;
+    left: 20px;
+    bottom: 125px;
 }
-#register_form .form-box form{
+#products_area .new{
+    position: absolute;
+    width: 8.3rem;
+    height: 2.1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #01D28E;
+    left: 20px;
+    bottom: 98px;
+}
+#products_area .card .image{
+    width: 25.5rem;
+    height: 35rem;
+}
+#products_area .card .image img{
+   border-radius: .5rem;
+}
+#products_area .card .card-body{
+    text-align: center;
+}
+#products_area .card .card-body .name{
+    font-size: 1.6rem;
+    font-style: italic;
+    color: #B7472A;
+}
+#products_area .card .card-body p{
+    font-size: 1.6rem;
+    color: #000;
+}
+#products_area .card .card-body h1{
+    font-size: 2.2rem;
+}
+.types{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-bottom: 3rem;
-    width: 50rem;
-} 
-#register_form .form-box form label{
-   text-transform: uppercase;
-} 
-#register_form .form-box form input{
-    height: 5rem;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
- }
-#register_form .form-box button{
-    width: 12rem;
-    height: 3.6rem;
-    background-color: #B7472A;
-    border: 1px solid #B7472A;
-    color: #fff;
-    font-size: 1.8rem;
-    border-radius: .5rem;
 }
-#footer_area{
+.types h1{
+    color: #000;
+}
+.types a{
+    color: #000;
+    font-size: 1.5rem;
+    transition: .5s;
+}
+.types a:hover{
+    color: #B7472A;
+}
+#footer_area {
     height: 40rem;
     background-color: #1a1a1a;
     display: flex;
     align-items: center;
 }
-.footer-boxs{
+
+.footer-boxs {
     display: flex;
     gap: 7rem;
 }
-.footer-boxs .box1{
+
+.footer-boxs .box1 {
     width: 20rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
-.footer-boxs .box1 h1{
+
+.footer-boxs .box1 h1 {
     font-size: 2rem;
     color: gray;
 }
-.footer-boxs .box2 h1{
+
+.footer-boxs .box2 h1 {
     font-size: 2rem;
     color: gray;
 }
-.footer-boxs .box3 h1{
+
+.footer-boxs .box3 h1 {
     font-size: 2rem;
     color: gray;
 }
-.footer-boxs .box4 h1{
+
+.footer-boxs .box4 h1 {
     font-size: 2rem;
     color: gray;
 }
-.footer-boxs .box5 h1{
+
+.footer-boxs .box5 h1 {
     font-size: 2rem;
     color: gray;
 }
-.footer-boxs .box2,.box3,.box4,.box5{
+
+.footer-boxs .box2,
+.box3,
+.box4,
+.box5 {
     display: flex;
     flex-direction: column;
     gap: 3rem;
 }
-.footer-boxs .box1 p{
+
+.footer-boxs .box1 p {
     font-size: 1.6rem;
 }
-.footer-boxs .box1 .footer-social{
+
+.footer-boxs .box1 .footer-social {
     display: flex;
     gap: 2rem;
 }
-.footer-boxs .box1 .footer-social .social1{
-   width: 5rem;
-   height: 5rem;
-   background-color: #B7472A;
-   border-radius: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-.footer-boxs .box1 .footer-social .social1 i{
-   color: #fff;
-   font-size: 2rem;
- }
- .footer-boxs .box1 .footer-social .social2{
+
+.footer-boxs .box1 .footer-social .social1 {
     width: 5rem;
     height: 5rem;
     background-color: #B7472A;
@@ -228,12 +312,14 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
- }
- .footer-boxs .box1 .footer-social .social2 i{
+}
+
+.footer-boxs .box1 .footer-social .social1 i {
     color: #fff;
     font-size: 2rem;
-  }
-  .footer-boxs .box1 .footer-social .social3{
+}
+
+.footer-boxs .box1 .footer-social .social2 {
     width: 5rem;
     height: 5rem;
     background-color: #B7472A;
@@ -241,85 +327,119 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
- }
- .footer-boxs .box1 .footer-social .social3 i{
+}
+
+.footer-boxs .box1 .footer-social .social2 i {
     color: #fff;
     font-size: 2rem;
-  }
-.footer-boxs .box2 ul{
+}
+
+.footer-boxs .box1 .footer-social .social3 {
+    width: 5rem;
+    height: 5rem;
+    background-color: #B7472A;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-boxs .box1 .footer-social .social3 i {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.footer-boxs .box2 ul {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-.footer-boxs .box3 ul{
+
+.footer-boxs .box3 ul {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-.footer-boxs .box4 ul{
+
+.footer-boxs .box4 ul {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-.footer-boxs .box5 ul{
+
+.footer-boxs .box5 ul {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-.footer-boxs .box2 ul li a{
-   color:gray;
-   font-size: 1.6rem;
-}
-.footer-boxs .box3 ul li a{
-    color:gray;
-   font-size: 1.6rem;
-}
-.footer-boxs .box4 ul li a{
-    color:gray;
+
+.footer-boxs .box2 ul li a {
+    color: gray;
     font-size: 1.6rem;
 }
-.footer-boxs .box5{
+
+.footer-boxs .box3 ul li a {
+    color: gray;
+    font-size: 1.6rem;
+}
+
+.footer-boxs .box4 ul li a {
+    color: gray;
+    font-size: 1.6rem;
+}
+
+.footer-boxs .box5 {
     width: 22.8rem;
 }
-.footer-boxs .box5 ul li a{
-    color:gray;
-   font-size: 1.6rem;
+
+.footer-boxs .box5 ul li a {
+    color: gray;
+    font-size: 1.6rem;
 }
-.footer-boxs .box5 .map{
+
+.footer-boxs .box5 .map {
     display: flex;
     gap: 2rem;
 }
-.footer-boxs .box5 .map i{
-   font-size: 2rem;
-   color: gray;
-}
-.footer-boxs .box5 .telephone{
-    display: flex;
-    gap: 2rem;
-}
-.footer-boxs .box5 .telephone i{
+
+.footer-boxs .box5 .map i {
     font-size: 2rem;
     color: gray;
- }
-.footer-boxs .box5 .send{
+}
+
+.footer-boxs .box5 .telephone {
     display: flex;
     gap: 2rem;
 }
-.footer-boxs .box5 .send i{
+
+.footer-boxs .box5 .telephone i {
     font-size: 2rem;
     color: gray;
- }
- #copyright{
+}
+
+.footer-boxs .box5 .send {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-boxs .box5 .send i {
+    font-size: 2rem;
+    color: gray;
+}
+
+#copyright {
     height: 12.4rem;
     background-color: #000;
     display: flex;
     align-items: center;
- }
- #copyright span{
+}
+
+#copyright span {
     font-size: 1.6rem;
     color: gray;
- }
- @media(max-width:768px) {
+}
+
+@media(max-width:768px) {
     #header_area {
         height: 6rem;
         z-index: 1;
@@ -348,16 +468,15 @@ p {
         display: block;
         font-size: 2rem;
     }
-    #register_form .form-box form{
-        width: 35rem;
-    } 
-    #footer_area{
+    #footer_area {
         height: 120rem;
     }
-    .footer-boxs{
+
+    .footer-boxs {
         display: block;
     }
-    #copyright span{
+
+    #copyright span {
         font-size: 1.3rem;
-     }
+    }
 }
